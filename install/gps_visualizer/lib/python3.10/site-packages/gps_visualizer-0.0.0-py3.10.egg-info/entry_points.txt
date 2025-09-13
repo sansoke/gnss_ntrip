@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_visualizer = gps_visualizer.waypoint_visualizer:main
+

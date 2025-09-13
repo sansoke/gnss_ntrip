@@ -1,0 +1,44 @@
+# Configuration Settings for ZED-F9P Rover
+ublox_gps_node:
+  ros__parameters:
+    debug: 1                    # Range 0-4 (0 means no debug statements will print)
+
+    device: /dev/ttyACM0
+    frame_id: gps
+    
+    rate: 1.0                   # Measurement rate in Hz
+    nav_rate: 1                 # Navigation rate in measurement cycles
+                                
+    dynamic_model: portable
+    
+    uart1:
+      baudrate: 38400           # U-Center default baud rate for ZED-F9P
+      in: 32                    # RTCM 3
+      out: 1                    # UBX
+
+    gnss:
+      gps: true
+      glonass: true
+      galileo: true
+      beidou: false             # Disabled to prevent configuration errors and improve stability
+      qzss: true
+      imes: false
+      sbas: false               # SBAS is not needed for RTK
+
+    dgnss_mode: 3               # RTK Fixed mode
+
+    # TMODE3 Config is for base stations, so it's disabled for a rover
+    tmode3: 0
+    
+    inf:
+      all: true                 # Whether to display all INF messages in console
+    
+    # Enable necessary u-blox message publishers for rover operation
+    publish:
+      all: false
+      nav:
+        all: true
+      aid:
+        all: false
+      rxm:
+        rtcm: true

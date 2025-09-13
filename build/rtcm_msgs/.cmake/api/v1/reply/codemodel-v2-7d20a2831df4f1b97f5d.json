@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-08f3f0779c3af0a942bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rtcm_msgs__py",
+					"jsonFile" : "directory-rtcm_msgs__py-5202150ed07ac65974ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jeanho/gps_rtk/build/rtcm_msgs/rtcm_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rtcm_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rtcm_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rtcm_msgs_egg-d55a7f905d6098b4fbee.json",
+					"name" : "ament_cmake_python_build_rtcm_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rtcm_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rtcm_msgs-2d18f9f0e0e8f00e1932.json",
+					"name" : "ament_cmake_python_copy_rtcm_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs-591b8f0ff360120f844e.json",
+					"name" : "rtcm_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__cpp-3ff5d888662ad2832108.json",
+					"name" : "rtcm_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtcm_msgs__py::@c500b9c429fbfc7a0872",
+					"jsonFile" : "target-rtcm_msgs__py-75186e63f5505e63a661.json",
+					"name" : "rtcm_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_generator_c-992b038a172c6ec498f1.json",
+					"name" : "rtcm_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_generator_py-f5c3ce59b084b42fe9f9.json",
+					"name" : "rtcm_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_c-52d65f161329f0a1aa30.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_c__pyext-4acc03e9d8b7f279a976.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_cpp-8def314e6326053fee6c.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_fastrtps_c-8a62e1ea025127709107.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext-ec7b81a315a031502e9f.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_fastrtps_cpp-fa918cf89a36e0edeeca.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_introspection_c-96e7387bce7b8de9540e.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_introspection_c__pyext-2870120872f7ed5aea8a.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs__rosidl_typesupport_introspection_cpp-ed836a6747ba87a11760.json",
+					"name" : "rtcm_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtcm_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtcm_msgs_uninstall-bcf6e2eb921fd9cc03f8.json",
+					"name" : "rtcm_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5afb90ded5866c78c996.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jeanho/gps_rtk/build/rtcm_msgs",
+		"source" : "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
