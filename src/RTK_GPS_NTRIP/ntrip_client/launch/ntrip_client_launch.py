@@ -21,7 +21,7 @@ def generate_launch_description():
           DeclareLaunchArgument('ca_cert',               default_value='None'),
           DeclareLaunchArgument('debug',                 default_value='false'),
           DeclareLaunchArgument('rtcm_message_package',  default_value='rtcm_msgs'),
-          DeclareLaunchArgument('nmea_gga_sentence',     default_value=''),
+          DeclareLaunchArgument('nmea_gga_sentence',     default_value='/ntrip_client/nmea'),
 
           # Pass an environment variable to the node
           SetEnvironmentVariable(name='NTRIP_CLIENT_DEBUG', value=LaunchConfiguration('debug')),
