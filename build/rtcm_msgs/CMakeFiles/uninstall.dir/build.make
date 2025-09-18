@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/rtcm_msgs
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jeanho/gps_rtk/build/rtcm_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs /home/jeanho/gps_rtk/build/rtcm_msgs /home/jeanho/gps_rtk/build/rtcm_msgs /home/jeanho/gps_rtk/build/rtcm_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeanho/gps_rtk/build/rtcm_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs /home/jeanho/gps_rtk/build/rtcm_msgs /home/jeanho/gps_rtk/build/rtcm_msgs /home/jeanho/gps_rtk/build/rtcm_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

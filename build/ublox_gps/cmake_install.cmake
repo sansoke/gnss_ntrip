@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps
+# Install script for directory: /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libublox_gps.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libublox_gps.so"
-         OLD_RPATH "/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libublox_gps.so")
@@ -77,7 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ublox_gps/ublox_gps_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ublox_gps/ublox_gps_node"
-         OLD_RPATH "/home/jeanho/gps_rtk/build/ublox_gps:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:"
+         OLD_RPATH "/home/jeanho/gps_rtk/build/ublox_gps:/opt/ros/humble/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ublox_gps/ublox_gps_node")
@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ublox_gps/ublox_logger")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ublox_gps/ublox_logger"
-         OLD_RPATH "/home/jeanho/gps_rtk/build/ublox_gps:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:"
+         OLD_RPATH "/home/jeanho/gps_rtk/build/ublox_gps:/opt/ros/humble/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ublox_gps/ublox_logger")
@@ -106,13 +106,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ublox_gps" TYPE DIRECTORY FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ublox_gps" TYPE DIRECTORY FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_gps" TYPE DIRECTORY FILES
-    "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/launch"
-    "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/config"
+    "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/launch"
+    "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/config"
     )
 endif()
 
@@ -203,7 +203,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_gps" TYPE FILE FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_gps" TYPE FILE FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

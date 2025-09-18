@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/ublox
@@ -82,6 +82,6 @@ CMakeFiles/ublox_uninstall.dir/clean:
 .PHONY : CMakeFiles/ublox_uninstall.dir/clean
 
 CMakeFiles/ublox_uninstall.dir/depend:
-	cd /home/jeanho/gps_rtk/build/ublox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox /home/jeanho/gps_rtk/build/ublox /home/jeanho/gps_rtk/build/ublox /home/jeanho/gps_rtk/build/ublox/CMakeFiles/ublox_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeanho/gps_rtk/build/ublox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox /home/jeanho/gps_rtk/build/ublox /home/jeanho/gps_rtk/build/ublox /home/jeanho/gps_rtk/build/ublox/CMakeFiles/ublox_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ublox_uninstall.dir/depend
 

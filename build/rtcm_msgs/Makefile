@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/rtcm_msgs

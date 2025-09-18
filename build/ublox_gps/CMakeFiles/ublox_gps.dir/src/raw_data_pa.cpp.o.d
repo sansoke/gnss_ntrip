@@ -1,5 +1,5 @@
 CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o: \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/src/raw_data_pa.cpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/src/raw_data_pa.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -648,7 +648,7 @@ CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/multi_array_layout__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/u_int8_multi_array__type_support.hpp \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/include/ublox_gps/raw_data_pa.hpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/include/ublox_gps/raw_data_pa.hpp \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \

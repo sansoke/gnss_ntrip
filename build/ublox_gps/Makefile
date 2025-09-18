@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/ublox_gps

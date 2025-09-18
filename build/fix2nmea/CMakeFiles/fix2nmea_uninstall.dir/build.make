@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/fix2nmea
@@ -82,6 +82,6 @@ CMakeFiles/fix2nmea_uninstall.dir/clean:
 .PHONY : CMakeFiles/fix2nmea_uninstall.dir/clean
 
 CMakeFiles/fix2nmea_uninstall.dir/depend:
-	cd /home/jeanho/gps_rtk/build/fix2nmea && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea/CMakeFiles/fix2nmea_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeanho/gps_rtk/build/fix2nmea && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea/CMakeFiles/fix2nmea_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fix2nmea_uninstall.dir/depend
 

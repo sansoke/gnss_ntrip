@@ -56,6 +56,7 @@ class NTRIPRos(Node):
         ('reconnect_attempt_max', NTRIPClient.DEFAULT_RECONNECT_ATTEMPT_MAX),
         ('reconnect_attempt_wait_seconds', NTRIPClient.DEFAULT_RECONNECT_ATEMPT_WAIT_SECONDS),
         ('rtcm_timeout_seconds', NTRIPClient.DEFAULT_RTCM_TIMEOUT_SECONDS),
+        ('nmea_gga_sentence', ''),
       ]
     )
 
@@ -68,6 +69,9 @@ class NTRIPRos(Node):
     ntrip_version = self.get_parameter('ntrip_version').value
     if ntrip_version == 'None':
       ntrip_version = None
+
+    # Get the static NMEA GGA sentence
+    self._nmea_gga_sentence = self.get_parameter('nmea_gga_sentence').value
 
     # Set the log level to debug if debug is true
     if self._debug:
@@ -149,8 +153,15 @@ class NTRIPRos(Node):
     if not self._client.connect():
       self.get_logger().error('Unable to connect to NTRIP server')
       return False
-    # Setup our subscriber
-    self._nmea_sub = self.create_subscription(Sentence, 'nmea', self.subscribe_nmea, 10)
+    
+    # If a static GGA sentence is provided, send it on a timer.
+    # Otherwise, subscribe to the NMEA topic.
+    if self._nmea_gga_sentence:
+        self.get_logger().info('Using static NMEA GGA sentence.')
+        self._nmea_timer = self.create_timer(1.0, self.send_static_nmea)
+    else:
+        self.get_logger().info('Subscribing to NMEA topic.')
+        self._nmea_sub = self.create_subscription(Sentence, 'nmea', self.subscribe_nmea, 10)
 
     # Start the timer that will check for RTCM data
     self._rtcm_timer = self.create_timer(0.1, self.publish_rtcm)
@@ -158,9 +169,12 @@ class NTRIPRos(Node):
 
   def stop(self):
     self.get_logger().info('Stopping RTCM publisher')
-    if self._rtcm_timer:
+    if hasattr(self, '_rtcm_timer') and self._rtcm_timer:
       self._rtcm_timer.cancel()
       self._rtcm_timer.destroy()
+    if hasattr(self, '_nmea_timer') and self._nmea_timer:
+      self._nmea_timer.cancel()
+      self._nmea_timer.destroy()
     self.get_logger().info('Disconnecting NTRIP client')
     self._client.disconnect()
     self.get_logger().info('Shutting down node')
@@ -169,6 +183,10 @@ class NTRIPRos(Node):
   def subscribe_nmea(self, nmea):
     # Just extract the NMEA from the message, and send it right to the server
     self._client.send_nmea(nmea.sentence)
+
+  def send_static_nmea(self):
+    # Send the static NMEA sentence to the server
+    self._client.send_nmea(self._nmea_gga_sentence)
 
   def publish_rtcm(self):
     for raw_rtcm in self._client.recv_rtcm():

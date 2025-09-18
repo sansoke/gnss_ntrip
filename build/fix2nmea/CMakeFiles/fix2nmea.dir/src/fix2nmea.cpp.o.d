@@ -1,5 +1,5 @@
 CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o: \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea/src/fix2nmea.cpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea/src/fix2nmea.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

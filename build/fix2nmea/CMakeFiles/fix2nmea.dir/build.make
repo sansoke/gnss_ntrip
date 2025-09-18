@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/fix2nmea
@@ -70,18 +70,18 @@ include CMakeFiles/fix2nmea.dir/progress.make
 include CMakeFiles/fix2nmea.dir/flags.make
 
 CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o: CMakeFiles/fix2nmea.dir/flags.make
-CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o: /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea/src/fix2nmea.cpp
+CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o: /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea/src/fix2nmea.cpp
 CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o: CMakeFiles/fix2nmea.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeanho/gps_rtk/build/fix2nmea/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o -MF CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o.d -o CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o -c /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea/src/fix2nmea.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o -MF CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o.d -o CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.o -c /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea/src/fix2nmea.cpp
 
 CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea/src/fix2nmea.cpp > CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea/src/fix2nmea.cpp > CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.i
 
 CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea/src/fix2nmea.cpp -o CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea/src/fix2nmea.cpp -o CMakeFiles/fix2nmea.dir/src/fix2nmea.cpp.s
 
 # Object files for target fix2nmea
 fix2nmea_OBJECTS = \
@@ -200,6 +200,6 @@ CMakeFiles/fix2nmea.dir/clean:
 .PHONY : CMakeFiles/fix2nmea.dir/clean
 
 CMakeFiles/fix2nmea.dir/depend:
-	cd /home/jeanho/gps_rtk/build/fix2nmea && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea/CMakeFiles/fix2nmea.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeanho/gps_rtk/build/fix2nmea && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea /home/jeanho/gps_rtk/build/fix2nmea/CMakeFiles/fix2nmea.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fix2nmea.dir/depend
 

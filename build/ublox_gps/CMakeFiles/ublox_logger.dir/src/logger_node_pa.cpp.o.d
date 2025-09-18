@@ -1,5 +1,5 @@
 CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o: \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/src/logger_node_pa.cpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/src/logger_node_pa.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -618,7 +618,7 @@ CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/include/ublox_gps/raw_data_pa.hpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/include/ublox_gps/raw_data_pa.hpp \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \

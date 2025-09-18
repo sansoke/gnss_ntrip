@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_msgs
+CMAKE_SOURCE_DIR = /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_msgs
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jeanho/gps_rtk/build/ublox_msgs
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_ublox_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_ublox_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_ublox_msgs.dir/depend:
-	cd /home/jeanho/gps_rtk/build/ublox_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_msgs /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_msgs /home/jeanho/gps_rtk/build/ublox_msgs /home/jeanho/gps_rtk/build/ublox_msgs /home/jeanho/gps_rtk/build/ublox_msgs/CMakeFiles/ament_cmake_python_copy_ublox_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeanho/gps_rtk/build/ublox_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_msgs /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_msgs /home/jeanho/gps_rtk/build/ublox_msgs /home/jeanho/gps_rtk/build/ublox_msgs /home/jeanho/gps_rtk/build/ublox_msgs/CMakeFiles/ament_cmake_python_copy_ublox_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_ublox_msgs.dir/depend
 

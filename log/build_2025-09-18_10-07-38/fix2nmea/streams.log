@@ -1,0 +1,47 @@
+[0.115s] Invoking command in '/home/jeanho/gps_rtk/build/fix2nmea': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/fix2nmea -- -j24 -l24
+[0.127s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.188s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.313s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.313s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.340s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.710s] -- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+[7.717s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.734s] -- Found ublox_msgs: 2.3.0 (/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/cmake)
+[7.777s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.864s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.864s] -- Configured cppcheck include dirs: 
+[7.864s] -- Configured cppcheck exclude dirs and/or files: 
+[7.865s] -- Added test 'lint_cmake' to check CMake code style
+[7.867s] -- Added test 'uncrustify' to check C / C++ code style
+[7.867s] -- Configured uncrustify additional arguments: 
+[7.867s] -- Added test 'xmllint' to check XML markup files
+[7.869s] -- Configuring done
+[7.885s] -- Generating done
+[7.888s] -- Build files have been written to: /home/jeanho/gps_rtk/build/fix2nmea
+[7.917s] [35m[1mConsolidate compiler generated dependencies of target fix2nmea[0m
+[7.985s] [100%] Built target fix2nmea
+[7.994s] Invoked command in '/home/jeanho/gps_rtk/build/fix2nmea' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/fix2nmea -- -j24 -l24
+[7.997s] Invoking command in '/home/jeanho/gps_rtk/build/fix2nmea': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/fix2nmea
+[8.001s] -- Install configuration: ""
+[8.003s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/lib/fix2nmea/fix2nmea
+[8.003s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/ament_index/resource_index/package_run_dependencies/fix2nmea
+[8.003s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/ament_index/resource_index/parent_prefix_path/fix2nmea
+[8.003s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/environment/ament_prefix_path.sh
+[8.004s] -- Installing: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/environment/ament_prefix_path.dsv
+[8.005s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/environment/path.sh
+[8.005s] -- Installing: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/environment/path.dsv
+[8.005s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/local_setup.bash
+[8.006s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/local_setup.sh
+[8.007s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/local_setup.zsh
+[8.007s] -- Installing: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/local_setup.dsv
+[8.007s] -- Installing: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.dsv
+[8.008s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/ament_index/resource_index/packages/fix2nmea
+[8.008s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/cmake/fix2nmeaConfig.cmake
+[8.009s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/cmake/fix2nmeaConfig-version.cmake
+[8.011s] -- Up-to-date: /home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.xml
+[8.011s] Invoked command in '/home/jeanho/gps_rtk/build/fix2nmea' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/fix2nmea

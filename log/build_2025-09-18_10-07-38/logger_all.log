@@ -1,0 +1,605 @@
+[0.188s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.188s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b3209b52140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b3209b51c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b3209b51c60>>, mixin_verb=('build',))
+[3.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jeanho/gps_rtk'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extensions ['ignore', 'ignore_ament_install']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'ignore'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'ignore_ament_install'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extensions ['colcon_pkg']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'colcon_pkg'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extensions ['colcon_meta']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'colcon_meta'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extensions ['ros']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'ros'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extensions ['cmake', 'python']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'cmake'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'python'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extensions ['python_setup_py']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP) by extension 'python_setup_py'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/build) by extensions ['ignore', 'ignore_ament_install']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/build) by extension 'ignore'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/build) ignored
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extensions ['ignore', 'ignore_ament_install']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extension 'ignore'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extension 'ignore_ament_install'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extensions ['colcon_pkg']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extension 'colcon_pkg'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extensions ['colcon_meta']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extension 'colcon_meta'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extensions ['ros']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/fix2nmea) by extension 'ros'
+[3.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/fix2nmea' with type 'ros.ament_cmake' and name 'fix2nmea'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/install) by extensions ['ignore', 'ignore_ament_install']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/install) by extension 'ignore'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/install) ignored
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/log) by extensions ['ignore', 'ignore_ament_install']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/log) by extension 'ignore'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/log) ignored
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extensions ['ignore', 'ignore_ament_install']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extension 'ignore'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extension 'ignore_ament_install'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extensions ['colcon_pkg']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extension 'colcon_pkg'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extensions ['colcon_meta']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extension 'colcon_meta'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extensions ['ros']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ntrip_client) by extension 'ros'
+[3.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/ntrip_client' with type 'ros.ament_python' and name 'ntrip_client'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extension 'ignore'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extension 'ignore_ament_install'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extensions ['colcon_pkg']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extension 'colcon_pkg'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extensions ['colcon_meta']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extension 'colcon_meta'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extensions ['ros']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/rtcm_msgs) by extension 'ros'
+[3.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/rtcm_msgs' with type 'ros.ament_cmake' and name 'rtcm_msgs'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extensions ['ignore', 'ignore_ament_install']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extension 'ignore'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extension 'ignore_ament_install'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extensions ['colcon_pkg']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extension 'colcon_pkg'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extensions ['colcon_meta']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extension 'colcon_meta'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extensions ['ros']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox) by extension 'ros'
+[3.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[3.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[3.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extension 'ignore'
+[3.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extension 'ignore_ament_install'
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extensions ['colcon_pkg']
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extension 'colcon_pkg'
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extensions ['colcon_meta']
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extension 'colcon_meta'
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extensions ['ros']
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_gps) by extension 'ros'
+[3.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extension 'ignore'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extension 'ignore_ament_install'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extensions ['colcon_pkg']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extension 'colcon_pkg'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extensions ['colcon_meta']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extension 'colcon_meta'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extensions ['ros']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_msgs) by extension 'ros'
+[3.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extension 'ignore'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extension 'ignore_ament_install'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extensions ['colcon_pkg']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extension 'colcon_pkg'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extensions ['colcon_meta']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extension 'colcon_meta'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extensions ['ros']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTK_GPS_NTRIP/ublox_serialization) by extension 'ros'
+[3.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTK_GPS_NTRIP/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extension 'ignore'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extension 'ignore_ament_install'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extensions ['colcon_pkg']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extension 'colcon_pkg'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extensions ['colcon_meta']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extension 'colcon_meta'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extensions ['ros']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_visualizer) by extension 'ros'
+[3.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_visualizer' with type 'ros.ament_python' and name 'gps_visualizer'
+[3.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[3.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'cmake_args' from command line to 'None'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'cmake_target' from command line to 'None'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[3.302s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'gps_visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.303s] DEBUG:colcon.colcon_core.verb:Building package 'gps_visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/gps_visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/gps_visualizer', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/gps_visualizer', 'symlink_install': False, 'test_result_base': None}
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_cache' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_clean_first' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'cmake_force_configure' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'ament_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ntrip_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.303s] DEBUG:colcon.colcon_core.verb:Building package 'ntrip_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/ntrip_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/ntrip_client', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ntrip_client', 'symlink_install': False, 'test_result_base': None}
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'rtcm_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.303s] DEBUG:colcon.colcon_core.verb:Building package 'rtcm_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/rtcm_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/rtcm_msgs', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[3.303s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.303s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/ublox_serialization', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.304s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/ublox_msgs', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'cmake_target' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'cmake_clean_cache' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'cmake_clean_first' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'cmake_force_configure' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'ament_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'catkin_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'fix2nmea' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.304s] DEBUG:colcon.colcon_core.verb:Building package 'fix2nmea' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/fix2nmea', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/fix2nmea', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea', 'symlink_install': False, 'test_result_base': None}
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.304s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/ublox_gps', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.305s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jeanho/gps_rtk/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jeanho/gps_rtk/install/ublox', 'merge_install': False, 'path': '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox', 'symlink_install': False, 'test_result_base': None}
+[3.305s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_serialization' with build type 'ament_cmake'
+[3.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_serialization'
+[3.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs' with build type 'ament_cmake'
+[3.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs'
+[3.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jeanho/gps_rtk/src/gps_visualizer' with build type 'ament_python'
+[3.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_visualizer', 'ament_prefix_path')
+[3.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/hook/ament_prefix_path.ps1'
+[3.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/hook/ament_prefix_path.dsv'
+[3.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/hook/ament_prefix_path.sh'
+[3.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ntrip_client' with build type 'ament_python'
+[3.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_client', 'ament_prefix_path')
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.ps1'
+[3.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.dsv'
+[3.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/hook/ament_prefix_path.sh'
+[3.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox_serialization -- -j24 -l24
+[3.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/build/rtcm_msgs -- -j24 -l24
+[3.565s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jeanho/gps_rtk/src/gps_visualizer'
+[3.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.719s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ntrip_client'
+[3.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox_serialization -- -j24 -l24
+[3.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox_serialization
+[3.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/build/rtcm_msgs -- -j24 -l24
+[3.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/rtcm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/build/rtcm_msgs
+[3.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[3.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox_serialization
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization' for CMake module files
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization' for CMake config files
+[3.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/bin'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/lib/python3.10/site-packages'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/bin'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.sh'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.bash'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[3.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[3.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization' for CMake module files
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization' for CMake config files
+[3.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/bin'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/lib/python3.10/site-packages'
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_serialization/bin'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.sh'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.bash'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[3.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[3.762s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_msgs' with build type 'ament_cmake'
+[3.762s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_msgs'
+[3.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtcm_msgs)
+[3.778s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs' for CMake module files
+[3.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/rtcm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/build/rtcm_msgs
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs' for CMake config files
+[3.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[3.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[3.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/lib'
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/bin'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/lib/python3.10/site-packages'
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/bin'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[3.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[3.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[3.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[3.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtcm_msgs)
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs' for CMake module files
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs' for CMake config files
+[3.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'cmake_prefix_path')
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.ps1'
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.dsv'
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/cmake_prefix_path.sh'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/lib'
+[3.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtcm_msgs', 'ld_library_path_lib')
+[3.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.dsv'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/hook/ld_library_path_lib.sh'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/bin'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/lib/pkgconfig/rtcm_msgs.pc'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/lib/python3.10/site-packages'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/rtcm_msgs/bin'
+[3.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.ps1'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.dsv'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.sh'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.bash'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/rtcm_msgs/share/rtcm_msgs/package.zsh'
+[3.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/rtcm_msgs/share/colcon-core/packages/rtcm_msgs)
+[3.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox_msgs': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox_msgs -- -j24 -l24
+[3.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ntrip_client': PYTHONPATH=/home/jeanho/gps_rtk/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeanho/gps_rtk/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ntrip_client build --build-base /home/jeanho/gps_rtk/build/ntrip_client/build install --record /home/jeanho/gps_rtk/build/ntrip_client/install.log --single-version-externally-managed install_data
+[3.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/src/gps_visualizer': PYTHONPATH=/home/jeanho/gps_rtk/build/gps_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeanho/gps_rtk/install/gps_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_visualizer build --build-base /home/jeanho/gps_rtk/build/gps_visualizer/build install --record /home/jeanho/gps_rtk/build/gps_visualizer/install.log --single-version-externally-managed install_data
+[4.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox_msgs -- -j24 -l24
+[4.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox_msgs': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox_msgs
+[4.170s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client' for CMake module files
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client' for CMake config files
+[4.199s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client/lib'
+[4.200s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client/bin'
+[4.200s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client/lib/pkgconfig/ntrip_client.pc'
+[4.201s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client/lib/python3.10/site-packages'
+[4.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip_client', 'pythonpath')
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/hook/pythonpath.ps1'
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/hook/pythonpath.dsv'
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/hook/pythonpath.sh'
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ntrip_client/bin'
+[4.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ntrip_client)
+[4.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/package.ps1'
+[4.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/package.dsv'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/package.sh'
+[4.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/package.bash'
+[4.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ntrip_client/share/ntrip_client/package.zsh'
+[4.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ntrip_client/share/colcon-core/packages/ntrip_client)
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer' for CMake module files
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer' for CMake config files
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer/lib'
+[4.271s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer/bin'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer/lib/pkgconfig/gps_visualizer.pc'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer/lib/python3.10/site-packages'
+[4.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_visualizer', 'pythonpath')
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/hook/pythonpath.ps1'
+[4.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/hook/pythonpath.dsv'
+[4.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/hook/pythonpath.sh'
+[4.282s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/gps_visualizer/bin'
+[4.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_visualizer)
+[4.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/package.ps1'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/package.dsv'
+[4.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/package.sh'
+[4.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/package.bash'
+[4.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/gps_visualizer/share/gps_visualizer/package.zsh'
+[4.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ntrip_client' returned '0': PYTHONPATH=/home/jeanho/gps_rtk/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeanho/gps_rtk/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ntrip_client build --build-base /home/jeanho/gps_rtk/build/ntrip_client/build install --record /home/jeanho/gps_rtk/build/ntrip_client/install.log --single-version-externally-managed install_data
+[4.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/gps_visualizer/share/colcon-core/packages/gps_visualizer)
+[4.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs' for CMake module files
+[4.308s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs' for CMake config files
+[4.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/src/gps_visualizer' returned '0': PYTHONPATH=/home/jeanho/gps_rtk/build/gps_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeanho/gps_rtk/install/gps_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_visualizer build --build-base /home/jeanho/gps_rtk/build/gps_visualizer/build install --record /home/jeanho/gps_rtk/build/gps_visualizer/install.log --single-version-externally-managed install_data
+[4.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox_msgs
+[4.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[4.320s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/lib'
+[4.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/bin'
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/lib/python3.10/site-packages'
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/bin'
+[4.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.sh'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.bash'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[4.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[4.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs' for CMake module files
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs' for CMake config files
+[4.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[4.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/lib'
+[4.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[4.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/bin'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/lib/python3.10/site-packages'
+[4.325s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_msgs/bin'
+[4.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[4.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[4.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.sh'
+[4.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.bash'
+[4.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[4.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[4.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps' with build type 'ament_cmake'
+[4.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps'
+[4.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea' with build type 'ament_cmake'
+[4.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea'
+[4.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/fix2nmea': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/fix2nmea -- -j24 -l24
+[4.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox_gps': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox_gps -- -j24 -l24
+[4.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox_gps -- -j24 -l24
+[4.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox_gps': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox_gps
+[4.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps' for CMake module files
+[4.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox_gps
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps' for CMake config files
+[4.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/lib'
+[4.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/bin'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/lib/python3.10/site-packages'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/bin'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.ps1'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.dsv'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.sh'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.bash'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.zsh'
+[4.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[4.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[4.647s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps' for CMake module files
+[4.647s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps' for CMake config files
+[4.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[4.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/lib'
+[4.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/bin'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/lib/python3.10/site-packages'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox_gps/bin'
+[4.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.ps1'
+[4.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.dsv'
+[4.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.sh'
+[4.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.bash'
+[4.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox_gps/share/ublox_gps/package.zsh'
+[4.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[4.651s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox' with build type 'ament_cmake'
+[4.651s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox'
+[4.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_gps/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox -- -j24 -l24
+[5.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_gps/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/ublox -- -j24 -l24
+[5.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/ublox': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_gps/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox
+[5.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox' for CMake module files
+[5.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_gps:/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/home/jeanho/gps_rtk/install/rtcm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_gps/lib:/home/jeanho/gps_rtk/install/ublox_msgs/lib:/home/jeanho/gps_rtk/install/rtcm_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/jeanho/gps_rtk/install/rtcm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/ublox
+[5.032s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox' for CMake config files
+[5.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/bin'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/lib/pkgconfig/ublox.pc'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/lib/python3.10/site-packages'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/bin'
+[5.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.ps1'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.dsv'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.sh'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.bash'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.zsh'
+[5.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox/share/colcon-core/packages/ublox)
+[5.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox' for CMake module files
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox' for CMake config files
+[5.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[5.038s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/bin'
+[5.038s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/lib/pkgconfig/ublox.pc'
+[5.038s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/lib/python3.10/site-packages'
+[5.038s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/ublox/bin'
+[5.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.ps1'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.dsv'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.sh'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.bash'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/ublox/share/ublox/package.zsh'
+[5.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/ublox/share/colcon-core/packages/ublox)
+[12.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/fix2nmea' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/fix2nmea -- -j24 -l24
+[12.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jeanho/gps_rtk/build/fix2nmea': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/fix2nmea
+[12.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fix2nmea)
+[12.340s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea' for CMake module files
+[12.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jeanho/gps_rtk/build/fix2nmea' returned '0': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jeanho/gps_rtk/build/fix2nmea
+[12.341s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea' for CMake config files
+[12.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('fix2nmea', 'cmake_prefix_path')
+[12.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/hook/cmake_prefix_path.ps1'
+[12.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/hook/cmake_prefix_path.dsv'
+[12.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/hook/cmake_prefix_path.sh'
+[12.343s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/lib'
+[12.343s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/bin'
+[12.343s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/lib/pkgconfig/fix2nmea.pc'
+[12.343s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/lib/python3.10/site-packages'
+[12.343s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/bin'
+[12.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.ps1'
+[12.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.dsv'
+[12.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.sh'
+[12.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.bash'
+[12.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.zsh'
+[12.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/fix2nmea/share/colcon-core/packages/fix2nmea)
+[12.345s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fix2nmea)
+[12.346s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea' for CMake module files
+[12.346s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea' for CMake config files
+[12.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('fix2nmea', 'cmake_prefix_path')
+[12.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/hook/cmake_prefix_path.ps1'
+[12.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/hook/cmake_prefix_path.dsv'
+[12.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/hook/cmake_prefix_path.sh'
+[12.347s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/lib'
+[12.347s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/bin'
+[12.347s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/lib/pkgconfig/fix2nmea.pc'
+[12.347s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/lib/python3.10/site-packages'
+[12.347s] Level 1:colcon.colcon_core.environment:checking '/home/jeanho/gps_rtk/install/fix2nmea/bin'
+[12.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.ps1'
+[12.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.dsv'
+[12.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.sh'
+[12.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.bash'
+[12.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/jeanho/gps_rtk/install/fix2nmea/share/fix2nmea/package.zsh'
+[12.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jeanho/gps_rtk/install/fix2nmea/share/colcon-core/packages/fix2nmea)
+[12.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.350s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.435s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.435s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[12.435s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeanho/gps_rtk/install/local_setup.ps1'
+[12.437s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jeanho/gps_rtk/install/_local_setup_util_ps1.py'
+[12.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeanho/gps_rtk/install/setup.ps1'
+[12.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeanho/gps_rtk/install/local_setup.sh'
+[12.439s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jeanho/gps_rtk/install/_local_setup_util_sh.py'
+[12.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeanho/gps_rtk/install/setup.sh'
+[12.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeanho/gps_rtk/install/local_setup.bash'
+[12.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeanho/gps_rtk/install/setup.bash'
+[12.441s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jeanho/gps_rtk/install/local_setup.zsh'
+[12.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jeanho/gps_rtk/install/setup.zsh'

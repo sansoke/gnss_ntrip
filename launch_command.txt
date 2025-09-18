@@ -1,0 +1,14 @@
+1. u-blox Driver
+ros2 launch ublox_gps ublox_gps_node-launch.py
+
+2. NTRIP Client
+ros2 launch ntrip_client ntrip_client_launch.py
+
+
+3. /fix to /nmea Parser
+ros2 run fix2nmea fix2nmea
+
+ros2 launch ntrip_client ntrip_client_launch.py host:='RTS2.ngii.go.kr' port:=2101 mountpoint:='VRS-RTCM32' authenticate:=True username:='jeanho1212' password:='ngii'
+
+*launch ntrip client with 국토지리정보원 계정 정보, fixed nmea
+ros2 launch ntrip_client ntrip_client_launch.py host:=RTS2.ngii.go.kr port:=2101 mountpoint:=VRS-RTCM32 authenticate:=true username:=ryan0826 password:=ngii ntrip_version:=Ntrip/2.0 rtcm_message_package:=rtcm_msgs nmea_gga_sentence:='$GPGGA,082731.327,3733.704,N,12656.204,E,1,12,1.0,0.0,M,0.0,M,,*60'

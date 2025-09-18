@@ -1,0 +1,32 @@
+[0.110s] Invoking command in '/home/jeanho/gps_rtk/build/fix2nmea': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/fix2nmea -- -j24 -l24
+[0.123s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.188s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.313s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.314s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.317s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.345s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.079s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[8.079s]   By not providing "Findnmea_msgs.cmake" in CMAKE_MODULE_PATH this project
+[8.079s]   has asked CMake to find a package configuration file provided by
+[8.079s]   "nmea_msgs", but CMake did not find one.
+[8.080s] 
+[8.080s]   Could not find a package configuration file provided by "nmea_msgs" with
+[8.080s]   any of the following names:
+[8.080s] 
+[8.080s]     nmea_msgsConfig.cmake
+[8.080s]     nmea_msgs-config.cmake
+[8.080s] 
+[8.080s]   Add the installation prefix of "nmea_msgs" to CMAKE_PREFIX_PATH or set
+[8.080s]   "nmea_msgs_DIR" to a directory containing one of the above files.  If
+[8.080s]   "nmea_msgs" provides a separate development package or SDK, be sure it has
+[8.080s]   been installed.
+[8.080s] 
+[8.080s] [0m
+[8.080s] -- Configuring incomplete, errors occurred!
+[8.080s] See also "/home/jeanho/gps_rtk/build/fix2nmea/CMakeFiles/CMakeOutput.log".
+[8.090s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[8.092s] Invoked command in '/home/jeanho/gps_rtk/build/fix2nmea' returned '2': AMENT_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jeanho/gps_rtk/install/ublox_msgs:/home/jeanho/gps_rtk/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/jeanho/gps_rtk/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jeanho/acados/lib PYTHONPATH=/home/jeanho/gps_rtk/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jeanho/gps_rtk/build/fix2nmea -- -j24 -l24

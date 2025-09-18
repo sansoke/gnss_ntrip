@@ -1,5 +1,5 @@
-/home/jeanho/gps_rtk/install/ublox_serialization/include/ublox_serialization/ublox_serialization/serialization.hpp
 /home/jeanho/gps_rtk/install/ublox_serialization/include/ublox_serialization/ublox_serialization/checksum.hpp
+/home/jeanho/gps_rtk/install/ublox_serialization/include/ublox_serialization/ublox_serialization/serialization.hpp
 /home/jeanho/gps_rtk/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
 /home/jeanho/gps_rtk/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
 /home/jeanho/gps_rtk/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh

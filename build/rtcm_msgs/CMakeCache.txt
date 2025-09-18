@@ -253,7 +253,7 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=jeanho-ROG-Zephyrus-G16-GA605WV-GA605WV
+SITE:STRING=LAPTOP-2LGP7J9C
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -430,7 +430,7 @@ rtcm_msgs_BINARY_DIR:STATIC=/home/jeanho/gps_rtk/build/rtcm_msgs
 rtcm_msgs_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-rtcm_msgs_SOURCE_DIR:STATIC=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs
+rtcm_msgs_SOURCE_DIR:STATIC=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs
 
 //Dependencies for the target
 rtcm_msgs__rosidl_generator_c_LIB_DEPENDS:STATIC=general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -553,7 +553,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/rtcm_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/rtcm_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

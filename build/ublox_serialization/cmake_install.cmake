@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_serialization
+# Install script for directory: /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_serialization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ublox_serialization" TYPE DIRECTORY FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_serialization/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ublox_serialization" TYPE DIRECTORY FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_serialization/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -126,7 +126,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_serialization" TYPE FILE FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_serialization/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ublox_serialization" TYPE FILE FILES "/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_serialization/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

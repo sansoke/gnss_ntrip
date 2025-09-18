@@ -266,7 +266,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=jeanho-ROG-Zephyrus-G16-GA605WV-GA605WV
+SITE:STRING=LAPTOP-2LGP7J9C
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
@@ -380,7 +380,7 @@ fix2nmea_BINARY_DIR:STATIC=/home/jeanho/gps_rtk/build/fix2nmea
 fix2nmea_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-fix2nmea_SOURCE_DIR:STATIC=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea
+fix2nmea_SOURCE_DIR:STATIC=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea
 
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
@@ -612,7 +612,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/fix2nmea
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/fix2nmea
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

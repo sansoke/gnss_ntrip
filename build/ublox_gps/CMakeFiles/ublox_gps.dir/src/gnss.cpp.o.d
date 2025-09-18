@@ -1,5 +1,5 @@
 CMakeFiles/ublox_gps.dir/src/gnss.cpp.o: \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/src/gnss.cpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/src/gnss.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -128,7 +128,7 @@ CMakeFiles/ublox_gps.dir/src/gnss.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP-main/ublox_gps/include/ublox_gps/gnss.hpp \
+ /home/jeanho/gps_rtk/src/RTK_GPS_NTRIP/ublox_gps/include/ublox_gps/gnss.hpp \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/node_handle.h \
